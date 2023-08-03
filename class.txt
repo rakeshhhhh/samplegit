@@ -1,0 +1,5 @@
+git init
+git configure --global user.name
+git status
+git add filename
+git commit -m "any message"
