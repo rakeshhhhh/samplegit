@@ -6,6 +6,8 @@ git add {filename}
 git commit -m "{any message}"
 git log
 git checkout {anycommitid} //to go to that Commit
+git branch {branchname}    git checkout {branchname}
+
 
 git init
 git add --all
