@@ -6,3 +6,10 @@ git add {filename}
 git commit -m "{any message}"
 git log
 git checkout {anycommitid} //to go to that Commit
+
+git init
+git add --all
+git commit -m "last"
+git branch -m master/main
+git remote add origin https://github.com/rakeshhhhh/website.git    or git remote remove origin
+git push -u origin master
