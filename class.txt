@@ -7,9 +7,12 @@ git commit -m "{any message}"
 git log
 git checkout {anycommitid} //to go to that Commit
 git branch {branchname}//new branch    git checkout {branchname}//switch to branch
+git merge {branchname} //fast forward merge
 git branch //list of branches and at which branch are currently in
 git diff //difrence b/w files or compare commits
 git stash //to delete un committed not wanted contents
+git log --all --decorate --graph
+//recursive merge also possible 
 
 
 git init
