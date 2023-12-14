@@ -40,9 +40,10 @@ Button b;
                 v1.setText("Total"+total);
                 v2.setText("Percentage"+per);
 //                Toast.makeText(MainActivity.this,"Total is"+total,Toast.LENGTH_SHORT).show();
-//                Toast.makeText(MainActivity.this,"percentage is"+per,Toast.LENGTH_SHORT).show();
+//               Toast.makeText(MainActivity.this,"percentage is"+per,Toast.LENGTH_SHORT).show();
                 if(per>50){
                     Intent i=new Intent(getApplicationContext(), MainActivity2.class);
+          //          #i.putExtra("a",per)
                     startActivity(i);
                 }
                 else{
