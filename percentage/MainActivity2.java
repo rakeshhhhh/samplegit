@@ -16,6 +16,8 @@ Button b;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         b=findViewById(R.id.button2);
+      #  Intent i=getIntent();
+      #  i.getDoubleExtra
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
