@@ -22,4 +22,20 @@ git branch -m master/main
 git remote add origin https://github.com/rakeshhhhh/website.git    or git remote remove origin
 git push -u origin master
 
+git remote --v //to check for origins or others
+git push origin {branchname}
+
 git clone {link}
+
+pull(fetch+merge)
+
+//checkout to master
+git pull // check wheather any updates on master if working in new branch created from master
+git merge master
+git commit -m ""
+
+
+pull and pull request are different
+//githubil new pull request    
+
+//accept by owner
